@@ -12,9 +12,14 @@ Chercher Un Produit
     [Tags]    Smoke
     amazonApp.Charger La Page Accueil
     amazonApp.Saisir Produit Et chercher
+    amazonApp.Charger La Page Des Produits
+
+Ajouter Un Produit Au Panier
+    [Documentation]  Scenario de recherche du produit et ajout au panier
+    [Tags]    Smoke
     amazonApp.Charger La Page Accueil
-
-
-#Chercher Un Produit
-
-#Ajouter Un Produit Au Panier
+    amazonApp.Saisir Produit Et chercher
+    amazonApp.Charger La Page Des Produits
+    amazonApp.Choisir Le produit
+    amazonApp.Charger la Page Du Produit
+    amazonApp.Ajouter Au Panier
